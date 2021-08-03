@@ -1,0 +1,332 @@
+    1  sudo apt-get install vnstat
+    2  whois www.jasonaddison.dev
+    3  poweroff
+    4  netstat -plant | grep 443
+    5  sudo add-apt-repository ppa:certbot/certbot
+    6  sudo apt install python-certbot-nginx
+    7  sudo nginx -t
+    8  sudo systemctl reload nginx
+    9  nginx -t -c /etc/nginx/nginx.conf
+   10  sudo systemctl reload nginx
+   11  nginx -t -c /etc/nginx/nginx.conf
+   12  sudo systemctl reload nginx
+   13  sudo fuser -k 443/tcp
+   14  service nginx restart
+   15  sudo apt-get update && sudo apt-get install software-properties-common
+   16  sudo add-apt-repository universe && sudo add-apt-repository ppa:certbot/certbot
+   17  sudo apt-get update && sudo apt-get install certbot python-certbot-nginx
+   18  sudo ufw allow OpenSSH
+   19  sudo ufw allow 'Nginx Full'
+   20  sudo ufw delete allow 'Nginx HTTP'
+   21  sudo ufw status
+   22  sudo certbot --nginx
+   23  nginx -s stop
+   24  nginx 
+   25  nginx
+   26  nginx -s reload
+   27  sudo certbot --nginx
+   28  sudo nginx -t
+   29  sudo service nginx reload
+   30  sudo service nginx start
+   31  nginx -t -c /etc/nginx/nginx.conf
+   32  sudo nginx -t
+   33  sudo service nginx start
+   34  sudo certbot --nginx
+   35  sudo certbot renew --dry-run
+   36  sudo update-rc.d apache2 disable
+   37  sudo update-rc.d -f  apache2 remove
+   38  sudo certbot renew --dry-run
+   39  sudo service apache2 stop
+   40  sudo certbot renew --dry-run
+   41  sudo nginx -t
+   42  sudo service nginx start
+   43  sudo certbot renew --dry-run
+   44  sudo /usr/sbin/apachectl stop
+   45  sudo /usr/sbin/apachect2 stop
+   46  sudo certbot renew --dry-run
+   47  hostname
+   48  poweroff
+   49  hostname
+   50  sudo hostnamectl set-hostname box.jasonaddison.dev
+   51  hostname
+   52  sudo nano /etc/hosts
+   53  cd ~
+   54  curl -s https://mailinabox.email/bootstrap.sh | sudo bash
+   55  restart
+   56  poweroff
+   57  git clone https://github.com/letsencrypt/letsencrypt
+   58  cd letsencrypt
+   59  ./letsencrypt-auto --help
+   60  sudo service nginx stop
+   61  /letsencrypt-auto certonly --standalone \  -d jasonaddison.dev \  -d box.jasonaddison.dev \  -d www.jasonaddison.dev
+   62  /letsencrypt-auto certonly --standalone \  -d jasonaddison.dev \  -d box.jasonaddison.devlocate letsencrypt-auto  \  -d www.jasonaddison.dev
+   63  locate letsencrypt-auto 
+   64  / certonly --standalone \  -d jasonaddison.dev \  -d box.jasonaddison.dev \  -d www.jasonaddison.dev
+   65  certonly --standalone \  -d jasonaddison.dev \  -d box.jasonaddison.dev \  -d www.jasonaddison.dev
+   66  locate letsencrypt-auto 
+   67  sudo updatedb
+   68  locate letsencrypt-auto 
+   69  /letsencrypt-auto-source certonly --standalone \  -d jasonaddison.dev \  -d box.jasonaddison.dev \  -d www.jasonaddison.dev
+   70  letsencrypt-auto-source certonly --standalone \  -d jasonaddison.dev \  -d box.jasonaddison.dev \  -d www.jasonaddison.dev
+   71  /letsencrypt-auto-source certonly --standalone \  -d jasonaddison.dev \  -d box.jasonaddison.dev \  -d www.jasonaddison.dev
+   72  /letsencrypt-auto-source certonly --standalone \  -d jasonaddison.dev \  -d box.jasonaddison.dev \  -d www.jasonaddison.devcd
+   73  cd
+   74  sudo apt-get update
+   75  sudo apt-get install software-properties-common
+   76  sudo add-apt-repository universe
+   77  sudo add-apt-repository ppa:certbot/certbot
+   78  hostname
+   79  sudo nano /etc/hosts
+   80  cd ~
+   81  curl -s https://mailinabox.email/bootstrap.sh | sudo bash
+   82  df -h
+   83  htpasswd -c .htpasswd admin
+   84  ls -l /home/user-data/.htpasswd
+   85  /home/user-ddata/.htpasswd
+   86  chmod 644
+   87  service nginx reload
+   88  [Bsudo sh -c "echo -n 'jason:' >> /etc/nginx/.htpasswd"
+   89  sudo sh -c "openssl coolpasscode -apr1 >> /etc/nginx/.htpasswd"
+   90  sudo sh -c "openssl passwd passcode >> /etc/nginx/.htpasswd"
+   91  sudo sh -c "openssl passwd -apr1 >> /etc/nginx/.htpasswd"
+   92  cat /etc/nginx/.htpasswd
+   93  service nginx reload
+   94  systemctl status nginx.service
+   95  sudo service nginx restart
+   96  df -h
+   97  grep -r --exclude-dir=log --exclude-dir=ssh --exclude=*history -I -l -e '-----BEGIN PRIVATE*' -e '-----BEGIN RSA*' -e -----BEGIN EC* [search_start_folder] 2> /dev/null
+   98  root/mailinabox/tools/owncloud-unlockadmin.sh jason@jasonaddison.dev
+   99  /mailinabox/tools/owncloud-unlockadmin.sh jason@jasonaddison.dev
+  100  find unlock
+  101  find / -iname owncloud-unlockadmin.sh
+  102  /mailinabox/tools/owncloud-unlockadmin.sh jason@jasonaddison.dev
+  103  /root/mailinabox/tools/owncloud-unlockadmin.sh jason@jasonaddison.dev
+  104  df -h
+  105  sudo du -a /dir/ | sort -n -r | head -n 20
+  106  sudo du -a / | sort -n -r | head -n 20
+  107  df -h
+  108  sudo du -a / | sort -n -r | head -n 20
+  109  df -h
+  110  sudo du -a / | sort -n -r | head -n 20
+  111  sudo du -a / | sort -n -r | head -n 100
+  112  df -h
+  113  echo ih
+  114  df -h
+  115  nginx reload
+  116  service nginx reload
+  117  certbot --reinstall --no-redirect
+  118  certbot --reinstall --no-redirect.
+  119  certbot --reinstall --no-redirect
+  120  nginx reload
+  121  service nginx reload
+  122  poweroff
+  123  service nginx reload
+  124  cd ~
+  125  curl -s https://mailinabox.email/bootstrap.sh | sudo bash
+  126  service nginx reload
+  127  sudo apt update -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt clean -y && sudo apt autoclean -y
+  128  df -h
+  129  curl -sSL https://repos.insights.digitalocean.com/install.sh | sudo bash
+  130  sudo mailinabox
+  131  sudo apt-get update && sudo apt-get upgrade
+  132  find index.html
+  133  find . -name "index*"
+  134  find . -name "index.html"
+  135  cd 
+  136  cd ..
+  137  find . -name "index.html"
+  138  find . -name "email_logo.png"
+  139  sudo apt-get update && sudo apt-get upgrade
+  140  ls
+  141  cd ..
+  142  ls
+  143  cd home
+  144  ls
+  145  cd auravyx
+  146  ls
+  147  ./server.out
+  148  chmod u+x server.out
+  149  ./server.out
+  150  apt-get update
+  151  apt-get install libstdc++6
+  152  ./server.out
+  153  g++
+  154  g++ -pthread -o test main.cpp httplib.h
+  155  ls
+  156  ./test
+  157  g++ 
+  158  ls
+  159  cd ..
+  160  ls
+  161  cd home
+  162  ls
+  163  cd auravyx
+  164  ls
+  165  g++ -pthread -o server.out main.cpp httplib.h
+  166  ls
+  167  g++ -pthread -o server.out main.cpp httplib.h
+  168  g++ -pthread -o s.out main.cpp httplib.h
+  169  ls
+  170  ./s.out
+  171  ufw status
+  172  ufw allow 8080
+  173  ufw status
+  174  ./s.out
+  175  cd ..
+  176  ls
+  177  cd home
+  178  cd auravyx
+  179  ls
+  180  ./s.out
+  181  sudo mailinabox
+  182  sudo apt-get update
+  183  sudo apt-get install s3fs
+  184  sudo nano /etc/fuse.conf
+  185  id
+  186  mkdir wasabi
+  187  s3fs jasonaddison-dev wasabi -o url=https://s3.wasabisys.com -o use_cache=/tmp -o allow_other -o use_path_request_style -o uid=0 -o gid=0
+  188  sudo apt-get install build-essential libcurl4-openssl-dev libxml2-dev mime-support
+  189  echo AWS_ACCESS_KEY_ID:AWS_SECRET_ACCESS_KEY > ~/.pwd-s3fs
+  190  sudo apt-get install s3fs
+  191  cd /usr/src/
+  192  git clone https://github.com/s3fs-fuse/s3fs-fuse.git
+  193  cd s3fs-fuse
+  194  ./autogen.sh
+  195  ./configure
+  196  make && make install
+  197  ./configure
+  198  ls
+  199  cd ..
+  200  ./configure
+  201  cd root
+  202  cd ..
+  203  ls
+  204  cd root
+  205  ls
+  206  s3fs mybucket /wasabi -o passwd_file=/etc/passwd-s3fs -o url=https://s3.wasabisys.com
+  207  s3fs mybucket root/wasabi -o passwd_file=/etc/passwd-s3fs -o url=https://s3.wasabisys.com
+  208  s3fs mybucket root/wasabi/ -o passwd_file=/etc/passwd-s3fs -o url=https://s3.wasabisys.com
+  209  ls
+  210  cd
+  211  d
+  212  s3fs mybucket /root/wasabi/ -o passwd_file=/etc/passwd-s3fs -o url=https://s3.wasabisys.com
+  213  echo 38TQ6M0KK9ER355UWXOT:cIuC6jzrvV6EijzuLiz2cfz5avXX7ft9IXWOOk64 > /etc/passwd-s3fs
+  214  chmod 600 /etc/passwd-s3fs
+  215  s3fs mybucket /root/wasabi/ -o passwd_file=/etc/passwd-s3fs -o url=https://s3.wasabisys.com
+  216  id
+  217  ls
+  218  s3fs mybucket /wasabi -o passwd_file=/etc/passwd-s3fs -o url=https://s3.wasabisys.com
+  219  s3fs mybucket /wasabi/ -o passwd_file=/etc/passwd-s3fs -o url=https://s3.wasabisys.com
+  220  s3fs wasabi root/wasabi/ -o passwd_file=/etc/passwd-s3fs -o url=https://s3.wasabisys.com
+  221  s3fs wasabi /root/wasabi/ -o passwd_file=/etc/passwd-s3fs -o url=https://s3.wasabisys.com
+  222  s3fs wasabi /root/wasabi -o passwd_file=/etc/passwd-s3fs -o url=https://s3.wasabisys.com
+  223  ls
+  224  cd wasabi
+  225  ls
+  226  s3fs jasonaddison-dev /root/wasabi -o passwd_file=/etc/passwd-s3fs -o url=https://s3.wasabisys.com
+  227  ls
+  228  s3fs
+  229  s3fs jasonaddison-dev
+  230  s3fs jasonaddison-dev t
+  231  df -h
+  232  ls
+  233  mkdir lol
+  234  ls
+  235  s3fs jasonaddison-dev /root/wasabi -o passwd_file=/etc/passwd-s3fs -o url=https://s3.wasabisys.com -d 
+  236  ls
+  237  cd ..
+  238  ls
+  239  cd root
+  240  ls
+  241  cd wasabi
+  242  ls
+  243  sudo apt install openjdk-8-jre
+  244  cd ..
+  245  wget https://github.com/streamaserver/streama/releases/v1.9.1/streama-1.9.1.jar
+  246  wget https://github.com/streamaserver/streama/releases/download/v1.9.1/streama-1.9.1.jar
+  247  chmod +x streama-1.9.1.jar
+  248  java -jar streama-1.9.1.jar
+  249  cd
+  250  cd ..
+  251  ls
+  252  cd home
+  253  cd auravyx
+  254  ls
+  255  ./server.out
+  256  ls
+  257  g++ Auravyx-Auth-Server server2.out
+  258  g++ Auravyx-Auth-Server.cpp server2.out
+  259  g++ Auravyx-Auth-Server.cpp
+  260  g++ -pthread -o Auravyx-Auth-Server.cpp
+  261  g++ -pthread Auravyx-Auth-Server.cpp
+  262  g++ -pthread Auravyx-Auth-Server.cpp -o
+  263  ls
+  264  chmod +x ./a.out
+  265  ./a.out
+  266  g++ -pthread Auravyx-Auth-Server.cpp -o
+  267  g++ -pthread Auravyx-Auth-Server.cpp
+  268  chmod +x ./a.out
+  269  ./a.out
+  270  g++ -pthread Auravyx-Auth-Server.cpp
+  271  chmod +x ./a.out
+  272  ./a.out
+  273  ./server.out
+  274  ./a.out
+  275  ls
+  276  g++ -pthread Auravyx-Auth-Server.cpp -lssl -lcrpyto -o serve
+  277  g++ -pthread Auravyx-Auth-Server.cpp -lssl -o serve
+  278  g++ -pthread Auravyx-Auth-Server.cpp -L/usr/lib -lssl -o serve
+  279  chmod +x ./serve
+  280  ./serve
+  281  g++ -pthread Auravyx-Auth-Server.cpp SHA_256.h HTTP.h -L/usr/lib -lssl -o serve
+  282  chmod +x ./serve
+  283  ./serve
+  284  sudo apt-get install libssl-dev
+  285  g++ -pthread Auravyx-Auth-Server.cpp SHA_256.h HTTP.h -L/usr/lib -lcrpyto -lssl -o serve
+  286  gcc -pthread Auravyx-Auth-Server.cpp SHA_256.h HTTP.h -L/usr/lib -lcrpyto -lssl -o serve
+  287  gcc -pthread Auravyx-Auth-Server.cpp -L/usr/lib -lcrpyto -lssl -o serve
+  288* gcc -pthread Auravyx-Auth-Server.cpp -L/usr/lib64/ 
+  289  g++ Auravyx-Auth-Server.cpp -L/usr/lib -lssl -lcrypto -o-pthread serving
+  290  gcc Auravyx-Auth-Server.cpp -L/usr/lib -lssl -lcrypto -o-pthread serving
+  291  gcc Auravyx-Auth-Server.cpp -L/usr/lib -lssl -lcrypto -o-pthread serving.out
+  292  gcc Auravyx-Auth-Server.cpp -L/usr/lib -lssl -lcrypto serving.out
+  293  gcc -pthread Auravyx-Auth-Server.cpp -L/usr/lib -lssl -lcrypto serving.out
+  294  g++ Auravyx-Auth-Server.cpp -L/usr/lib -lssl -lcrypto -o-pthread serving
+  295  ls
+  296  gcc Auravyx-Auth-Server.cpp -L/usr/lib -lssl -lcrypto -o-pthread
+  297  gcc Auravyx-Auth-Server.cpp -L/usr/lib -lssl -lcrypto -pthread
+  298  gcc Auravyx-Auth-Server.cpp -L/usr/lib
+  299  g++ Auravyx-Auth-Server.cpp -L/usr/lib
+  300  g++ Auravyx-Auth-Server.cpp -L/usr/lib -lssl -lcrypto -o-pthread
+  301  g++ -pthread Auravyx-Auth-Server.cpp -L/usr/lib -lssl -lcrypto -o
+  302  g++ -pthread Auravyx-Auth-Server.cpp -L/usr/lib -lssl -lcrypto -o out
+  303  ls
+  304  chmod =x ./out
+  305  ./out
+  306  g++ -pthread Auravyx-Auth-Server.cpp -L/usr/lib -lssl -lcrypto -o out
+  307  chmod =x ./out
+  308  ./out
+  309  g++ -pthread Auravyx-Auth-Server.cpp -L/usr/lib -lssl -lcrypto -o out
+  310  chmod =x ./out
+  311  ./out
+  312  ls
+  313  ./server.out
+  314  g++ -pthread -I Auravyx-Auth-Server.cpp -o -L/usr/lib -lssl -lm -lcrypto out
+  315  ls
+  316  g++ -pthread -I Auravyx-Auth-Server.cpp -L/usr/lib -lssl -lm -lcrypto out
+  317  g++ -pthread -I Auravyx-Auth-Server.cpp -L/usr/lib -lssl -lm -lcrypto outt
+  318  g++ -pthread Auravyx-Auth-Server.cpp -L/usr/lib -lssl -lm -lcrypto outt
+  319  g++ -pthread Auravyx-Auth-Server.cpp -lssl -lm -lcrypto outt
+  320  g++ -pthread Auravyx-Auth-Server.cpp -lssl -lm -lcrypto -o outt
+  321  g++ -o out -pthread Auravyx-Auth-Server.cpp -lssl -lm -lcrypto
+  322  g++ -o out -pthread Auravyx-Auth-Server.cpp SHA_256.h HTTP.h -lssl -lm -lcrypto
+  323  chmod =x ./out
+  324  ./out
+  325  g++ -o out -pthread Auravyx-Auth-Server.cpp SHA_256.h HTTP.h -L/usr/local/lib/ -lssl -lcrypto
+  326  chmod =x ./out
+  327  ./out
+  328  cd ~/.bash_history
+  329  history
+  330  history 2
+  331  cat .bash_history
+  332  history > or_print.txt
