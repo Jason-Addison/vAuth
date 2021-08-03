@@ -13,7 +13,7 @@ file(GLOB_RECURSE vAuthSource CONFIGURE_DEPENDS "${CMAKE_SOURCE_DIR}/Source/*.h"
 # Add source to this project's executable.
 add_executable (vAuth ${vAuthSource})
 
-target_link_libraries(vAuth pthread -ldl)
+target_link_libraries(vAuth -ldl)
 
 include_directories(src ${CMAKE_SOURCE_DIR}/Source)
 include_directories(src ${CMAKE_SOURCE_DIR}/Dependencies/Include)
@@ -24,7 +24,7 @@ include_directories(src ${CMAKE_SOURCE_DIR}/)
 #      OpenSSL      #
 #####################
 
-add_subdirectory(${CMAKE_SOURCE_DIR}/Dependencies/Include/openssl)
+#add_subdirectory(${CMAKE_SOURCE_DIR}/Dependencies/Include/openssl)
 
 if(WIN32)
 add_library(OpenSSL STATIC IMPORTED ${CMAKE_SOURCE_DIR}/Dependencies/Lib/windows/libssl_static.lib)
